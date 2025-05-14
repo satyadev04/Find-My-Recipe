@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100vw;
+    height: auto;
+    margin:2vh;
+    padding: 0vw 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav #nav_left h3 a{
+    color: black;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    font-weight: 500;
+    padding: 1vw;
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #FF874B;
+}
+nav ul li i{
+    font-size: 30px;
+}
+nav #nav_left h3 a:hover{
+    font-weight: 700;
+    color:#FF874B;
+}
+
+.home{
+    padding:0vw 2vw ;
+    width: 100vw;
+    height: 100vh;
+}
+.home .h_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#h_left{
+    padding-left:2vw ;
+    font-size: 4vh;
+}
+#h_left h1{
+    line-height: 10vh;
+} 
+#h_left p{
+    margin-top: 2vh;
+    line-height: 6vh;
+    color: rgb(169, 169, 169);
+}
+#h_left #homebtn{
+    
+    padding: 1vh 2vw;
+    margin-top: 4vh;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: #FF874B;
+}
+#h_left button h3{
+    font-weight: 600;
+}
+#h_left a{
+    text-decoration: none;
+    color: black;
+}
+#h_right img{
+    width: 40vw;
+    height: 40vw;
+}

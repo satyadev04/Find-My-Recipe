@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Meal For Your Ingredients</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <link rel = "stylesheet" href = "recipe.css">
+</head>
+<body>
+  <nav>
+    <div id="nav_left">
+        <h3><a href="#home">Open <br> Recipe</a></h3>
+    </div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.php">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="index1.php">login</a></li>
+    </ul>
+</nav>
+  <div class = "container">
+    <div class = "meal-wrapper">
+      <div class = "meal-search">
+        <h2 class = "title">Find Meals For Your Ingredients</h2>
+        <blockquote>Real food doesn't have ingredients, real food is ingredients.<br>
+          <cite>- Open recipe</cite>
+        </blockquote>
+
+        <div class = "meal-search-box">
+          <input type = "text" class = "search-control" placeholder="Enter an ingredient" id = "search-input">
+          <button type = "submit" class = "search-btn btn" id = "search-btn">
+            <i class = "fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class = "meal-result">
+        <h2 class = "title">Your Search Results:</h2>
+        <div id= "meal">
+        </div>
+      </div>
+
+
+      <div class = "meal-details">
+        <!-- recipe close btn -->
+        <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+          <i class = "fas fa-times"></i>
+        </button>
+
+        <!-- meal content -->
+        <div class = "meal-details-content">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+        <div class="social-media">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.x.com"  target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com"  target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com"  target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>&copy; 2024 Food Recipe. All rights reserved.</p>
+        <p>Designed by javal patel </p>
+    </div>
+</footer>
+
+  <script src = "recipe.js"></script>
+</body>
+</html>

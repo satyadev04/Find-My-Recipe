@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100vw;
+    height: 100vhx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+
+}
+
+nav{
+    width: 100vw;
+    height: auto;
+    margin:2vh;
+    padding: 0vw 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav #nav_left h3 a{
+    color: black;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    font-weight: 500;
+    padding: 1vw;
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #FF874B;
+}
+nav ul li i{
+    font-size: 30px;
+}
+nav #nav_left h3 a:hover{
+    font-weight: 700;
+    color:#FF874B;
+}
+
+
+p{
+    margin-top: 12px;
+    letter-spacing: 1px;
+}
+button{
+    padding: 1vh 2vw;
+    margin-top: 4vh;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: #FF874B;
+}
+
+button a{
+    text-decoration: none;
+    color:black;
+}body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #ff6584;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+.section {
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section img {
+    width: auto;
+    height: auto;
+    max-width: 250px;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: block;
+}
+
+.section h2 {
+    color: #ff6584;
+    font-size: 28px;
+}
+
+.section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.feature div {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f3e5f5;
+    border-radius: 8px;
+}
+
+.feature div img {
+    width: 150px;
+    height: 150px;
+}
+
+.feature div h3 {
+    color: #9c27b0;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.testimonial-section {
+    background-color: #ffe4e1;
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonial-section h2 {
+    font-size: 28px;
+    color: #ff6584;
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.testimonial .quote {
+    flex: 1;
+    padding: 20px;
+    margin: 0 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial .quote img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+    margin-bottom: 10px;
+}
+
+.testimonial .quote p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.apply-section {
+    background-color: #f3e5f5;
+    padding: 40px;
+    text-align: center;
+}
+
+.apply-section h2 {
+    color: #9c27b0;
+    font-size: 28px;
+}
+
+.apply-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apply-section form input,
+.apply-section form textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.apply-section form button {
+    padding: 10px 20px;
+    background-color: #ff6584;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-color: #ff6f00;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+.section {
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.section img:hover {
+    transform: scale(1.05);
+}
+
+.section h2 {
+    color: #ff6f00;
+    font-size: 28px;
+}
+
+.section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.feature div {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff3e0;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.feature div:hover {
+    background-color: #ffcc80;
+    transform: scale(1.05);
+}
+
+.feature div img {
+    width: 150px;
+    height: 150px;
+}
+
+.feature div h3 {
+    color: #e65100;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.testimonial-section {
+    background-color: #fff3e0;
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonial-section h2 {
+    font-size: 28px;
+    color: #ff6f00;
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.testimonial .quote {
+    flex: 1;
+    padding: 20px;
+    margin: 0 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.testimonial .quote:hover {
+    transform: scale(1.05);
+}
+
+.testimonial .quote img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial .quote p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.apply-section {
+    background-color: #fff3e0;
+    padding: 40px;
+    text-align: center;
+}
+
+.apply-section h2 {
+    color: #e65100;
+    font-size: 28px;
+}
+
+.apply-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apply-section form input,
+.apply-section form textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.apply-section form button {
+    padding: 10px 20px;
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.apply-section form button:hover {
+    background-color: #e65100;
+}
